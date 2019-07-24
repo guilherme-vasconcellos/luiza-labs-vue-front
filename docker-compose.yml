@@ -1,0 +1,16 @@
+# ======================================================================
+# @author: Guilherme Vasconcellos <guiyllw@hotmail.com>
+# @version: 1.0.0
+#
+# @description: Compose to start LuizaLabs frontend app
+# ======================================================================
+version: '3.7'
+
+services:
+  frontend:
+    build:
+      context: .
+    container_name: frontend
+    ports:
+      - 8080:80
+    restart: always

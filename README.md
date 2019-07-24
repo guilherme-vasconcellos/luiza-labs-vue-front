@@ -1,29 +1,28 @@
-# employers
+# Employees
+
+Luiza labs hiring test. 
 
 ## Project setup
 ```
 yarn install
 ```
 
-### Compiles and hot-reloads for development
-```
-yarn run serve
-```
-
 ### Compiles and minifies for production
 ```
-yarn run build
+yarn build
 ```
 
-### Run your tests
+### Start application
 ```
-yarn run test
+yarn start
+```
+
+### Compiles and hot-reloads for development
+```
+yarn dev
 ```
 
 ### Lints and fixes files
 ```
-yarn run lint
+yarn  lint
 ```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
