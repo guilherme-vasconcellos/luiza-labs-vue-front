@@ -150,7 +150,7 @@ export default {
 
         const updated = await updateEmployee(employee.email, employee);
 
-        const idx = this.employees.findIndex(e => e.email !== employee.email);
+        const idx = this.employees.findIndex(e => e.email === employee.email);
         this.employees[idx] = updated;
 
         this.currentEmployee = {};
